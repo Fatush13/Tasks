@@ -1,0 +1,16 @@
+<assembly>
+    <id>debug</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>debug/</directory>
+            <outputDirectory>/</outputDirectory>
+            <excludes>
+                <exclude>sym/</exclude>
+            </excludes>
+        </fileSet>
+    </fileSets>
+</assembly>
